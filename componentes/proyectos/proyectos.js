@@ -1,3 +1,4 @@
+import { header } from "../Header/header.js";
 function proyectos(){
 
     let section = document.createElement('section');
@@ -6,22 +7,6 @@ function proyectos(){
     section.appendChild(item());
 
     return section;
-}
-//funcion header
-function header(){
-    let div = document.createElement('div');
-    div.className = `header`;
-    
-    let h2 = document.createElement('h2');
-    h2.innerHTML = "proyectos";
-    div.appendChild(h2)
-
-    let btn = document.createElement('div');
-    btn.innerHTML = "Github";
-    div.appendChild(btn);
-    
-    return div;
-
 }
 
 //Item lista
