@@ -1,0 +1,6 @@
+.lista-menu{
+    grid-column: 1/3;
+    padding: 1rem;
+    gap: 1rem;
+    color: green;
+}
